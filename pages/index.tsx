@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/Link'
 import MainLayout from '../components/layouts/MainLayout'
 
 
@@ -8,7 +8,9 @@ export default function Home() {
   return (
     <MainLayout >
        <h1 className="title">
-          Ir a <Link href="/about">About!</Link>
+          Ir a <Link href="/about">
+            <a>About!</a>
+            </Link>
         </h1>
 
         <p className="description">

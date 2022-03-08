@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/Link'
 import DarkLayout from '../components/layouts/DarkLayout'
 import MainLayout from '../components/layouts/MainLayout'
 import { ReactElement } from 'react';
